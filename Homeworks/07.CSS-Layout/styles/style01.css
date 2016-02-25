@@ -1,0 +1,51 @@
+#wrapper{
+    width:1055px;
+    height: 120px;
+    background-color: #223a58;
+    color: #fefefe;
+    display: inline-block;
+}
+select{
+    background-color: #223a58;
+    border: none;
+    color: #fefefe;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #fefefe;
+    list-style: none;
+    position: relative;
+    font-family: Helvetica;
+}
+nav ul li{
+    list-style: none;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 20px;
+}
+div#logo{
+    width: 300px;
+    height:90px;
+    margin: 20px 0 20px 20px;
+}
+div#navigation{
+    display: inline-block;
+}
+#logo{
+    display: inline-block;
+}
+#bell{
+    width: 250px;
+    height: 30px;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+#bell-image{
+    margin-right: 20px;
+}
+input[type="search"]{
+    margin-top: 5px;
+}

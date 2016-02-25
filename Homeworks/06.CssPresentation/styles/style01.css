@@ -1,0 +1,74 @@
+#box{
+    border-top:8px dotted;
+    border-top-color:#FEFD20 ;
+    width: 650px;
+    border-bottom: 8px double blue;
+    border-left: 5px dashed red;
+    border-right: 5px solid green;
+    box-shadow: 11px 14px 5px #373737;
+}
+#field {
+    box-shadow: 0 0 0 2px red, 0 0 0 4px yellow, 0 0 0 6px green,
+                0 0 0 8px blue;
+    border-radius: 50px;
+    width: 610px;
+    height: 70px;
+    margin: 20px;
+
+}
+input{
+    display: inline-block;
+    background-color: #CE8521;
+    margin-left: 10px;
+    border-color: #D8921A;
+    border-style: outset;
+    font-size: 1em;
+    text-align: center;
+}
+#field>p{
+    font-size: 1.5em;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    text-shadow: 7px 9px 9px #D1D1D1;
+}
+#leftButton{
+    margin-left: 85px;
+}
+#box>p{
+    margin: 10px 60px;
+    margin-bottom: 0;
+    font-size: 2.5em;
+    text-shadow: 7px 8px 6px #D1D1D1;
+}
+#smallest{
+    width: 20px;
+    height: 20px;
+    margin-left: 480px;
+    bottom: 200px;
+    border-radius: 50px;
+}
+#middle{
+    width: 40px;
+    height: 40px;
+    margin-left: 575px;
+    bottom: 203px;
+    border-radius: 50px;
+}
+.baloon{
+    position: absolute;
+    display: inline-block;
+    border: 1px dashed white;
+    background-color: grey;
+    opacity: 0.4;
+    box-shadow: 0 0 0 1px grey;
+}
+#biggest{
+    width: 56px;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin-left: 600px;
+    bottom: 250px;
+}

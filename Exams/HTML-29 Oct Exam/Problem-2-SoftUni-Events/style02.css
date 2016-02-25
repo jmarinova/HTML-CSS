@@ -1,0 +1,134 @@
+@font-face {
+    font-family: ThisNight;
+    src: url(ThisNight.ttf);
+}
+@font-face {
+    font-family: Comic;
+    src: url(LDFComicSans.ttf);
+}
+body{
+    margin: 0;
+    font-family: Comic;
+}
+header{
+    font-family: ThisNight;
+    width: 100%;
+    text-align: center;
+}
+#wrapper{
+    width: 960px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #223a58;
+    padding: 10px 20px;
+}
+header nav ul li a {
+    font-size: 19px;
+}
+
+nav ul li:nth-child(3){
+    border: 1px solid #223a58;
+    background-color: #223a58;
+}
+#wrapper > header > nav > ul > li:nth-child(3) > a{
+    color: #ffffff;
+}
+header nav ul li a:hover{
+    color: #f78e1a;
+}
+#wrapper > header > nav > ul > li:nth-child(3):hover > a{
+    color: #f78e1a;
+}
+
+header h1{
+    padding: 20px;
+    font-size: 96px;
+    margin: 0;
+    color: white;
+    background-color: #223a58;
+    margin-bottom: 10px;
+}
+header h1:hover{
+    cursor: pointer;
+    color: #f78e1a;
+}
+main{
+    width: 870px;
+    margin: 0 auto;
+}
+article{
+    display: inline-block;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #223a58;
+    margin-left: 10px;
+}
+img{
+    width: 400px;
+    height: 130px;
+    margin: 0 10px;
+}
+main article h1{
+    width: 400px;
+    background-color: #223a58;
+    color: #ffffff;
+    text-shadow: 1px 2px 3px #f78e1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 36px;
+    padding: 10px 0;
+    margin: 10px;
+
+}
+main article p{
+    margin: 0 10px;
+}
+h6{
+    font-style: italic;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #223a58;
+    padding-bottom: 100px;
+}
+footer nav{
+    border-bottom: 1px solid #ffffff;
+}
+footer nav ul{
+    margin-bottom: 0;
+}
+footer nav ul li{
+    padding: 10px;
+}
+footer nav ul li a:hover{
+    background-color: #f78e1a;
+    color: #223a58;
+}
+footer nav ul li a{
+    color: #ffffff;
+    padding: 5px;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #f78e1a;
+}
+footer p{
+    margin: 0;
+}
+footer p:first-child{
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+section{
+    width: 160px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 285px;
+    margin-left:30px;
+}
+body{
+    /*width: 480px;*/
+    margin: 0 auto;
+}
+img{
+    border:1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+a{
+    display: block;
+}
+a:hover{
+    color: darkred;
+}
+.genre{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 2px;
+    cursor: pointer;
+}
+.genre:hover{
+    background-color: darkred;
+}
+.movie:hover{
+    background-color: darkred;
+}
+span{
+
+}
+body > main > section:nth-child(2) > a,
+body > main > section:nth-child(3) > a{
+    margin-bottom: 20px;
+}

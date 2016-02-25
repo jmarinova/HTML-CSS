@@ -1,0 +1,92 @@
+body{
+    display: inline-block;
+font-family: Calibri}
+form{
+    width: 650px;
+    height: 370px;
+    background-color: #eaeaea;
+    padding: 20px;
+}
+fieldset{
+    display: inline-flex;
+}
+#field{
+    display: flex;
+}
+form #student input{
+    height: 30px;
+    width: 277px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #fefefe;
+}
+form #student input[type="checkbox"]{
+    width: 17px;
+}
+
+#remember {
+    width: 128px;
+    padding-bottom: 10px;
+    margin: 6px 1px;
+}
+form #newmember input{
+    height: 24px;
+    width: 250px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #fefefe;
+}
+
+#newmember input[type="button"]{
+    border: 1px solid #223a58;
+    color: #223a58;
+    background-color: #eaeaea;
+    width: 100px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 174px;
+}
+#student input[type="button"]{
+    border: 1px solid #f8b430;
+    color: #eaeaea;
+    background-color: #223a58;
+    width: 100px;
+    font-size: 0.7rem;
+    font-weight:bold ;
+    margin-left: 200px;
+    margin-top: -44px;
+}
+#forgot{
+    margin-left:184px;
+    text-decoration: underline;
+}
+#student{
+    width: 320px;
+    height: 275px;
+    background-color: #223a58;
+    border: none;
+}
+#newmember{
+    width: 300px;
+    border: none;
+    height:260px;
+}
+.heading{
+    padding-top: 40px;
+}
+#student legend, #student p,
+#student input[type="button"]{
+    color: white;
+}
+.grey{
+    color: #585858;
+}
+.navy{
+    color: #223a58;
+}
+legend{
+    font-weight: 600;
+}
+form h1{
+    margin: 0;
+}

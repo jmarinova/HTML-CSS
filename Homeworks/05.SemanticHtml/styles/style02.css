@@ -1,0 +1,35 @@
+#wrapper{
+    display: inline-block;
+    background-color: black;
+    border-radius: 6px;
+    width: 600px;
+    height: 274px;
+
+}
+#gallery{
+    display: inline-block;
+    margin-left: 10px;
+}
+.img{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-family: Calibri;
+    font-style: italic;
+    font-size: 1.8em;
+    width: 100%;
+    max-width: 100%;
+
+}
+#cars{
+    display: inline-block;
+    margin-left: 10px;
+}
+#header{
+    margin-left: 103px;
+    color: #eeb81d;
+    display: block;
+}
+#imgbox{
+    border: 1px solid #eeb81d;
+}

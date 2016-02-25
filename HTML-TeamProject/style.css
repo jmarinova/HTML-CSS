@@ -1,0 +1,193 @@
+@import "reseter.css";
+
+@font-face {
+    font-family: Cuprum;
+    src: url(fonts/Cuprum-Regular.ttf);
+}
+
+@font-face {
+    font-family: CuprumBold;
+    src: url(fonts/Cuprum-Bold.ttf);
+}
+
+
+body {
+    /* Location of the image */
+    background-image: url(images/background.jpg);
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+
+
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+}
+
+div#wrapper {
+    margin: 3% auto;
+    width: 80%;
+}
+
+#logo-image {
+    width: 436px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    font-family: Cuprum;
+    position: relative;
+    background-image: url("images/header-bg-middle.png");
+    margin-top: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 3px 1px 13px 3px black;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: inline-table;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    width: 24.625%;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+nav a {
+    color: #AEAEAE;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+nav li a {
+    border-right: 1px solid #404040;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+    border-right: 0;
+}
+
+nav a#pull {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: auto;
+    }
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        border-right: 1px solid #576979;
+    }
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        background-color: #283744;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('images/menu.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+
+
+nav ul ul li {
+    float: none;
+    position: relative;
+}
+
+nav ul ul li a {
+    background-image: url("images/header-bg-middle.png");
+}
